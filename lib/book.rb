@@ -25,5 +25,7 @@ class Book
   def genre
     return @genre
   end
+  def turn_page
+end
 end
 Book.new("And then there were none")
