@@ -29,4 +29,5 @@ class Book
     puts "Flipping the page...wow, you read fast!"
   end
 end
-Book.new("And then there were none")
+book= Book.new("Alice and Wonderland")
+book.turn_page
